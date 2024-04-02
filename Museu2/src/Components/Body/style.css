@@ -1,0 +1,206 @@
+body{
+    background-color: black;
+}
+
+.Centro {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%; 
+    height: 90%; 
+    border: solid 2px #BF9B6F;
+    display: flex; /* Add this to make child elements flex items */
+    flex-direction: column; /* To stack children vertically */
+}
+
+.Sign {
+    color: #BF9B6F;
+    position: absolute; /* Position absolute */
+    right: 0; /* Align to the right */
+    margin-right: 2vw;
+    font-size: 1.5vw;
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+.word{
+    width: 100%;
+    height: 5vw;
+}
+
+.secaoT{
+    width: 100%;
+    height: 6vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Centro h1 {
+    text-align: center;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: normal;
+} 
+
+.Paty2 {
+    height: 55%;
+    display: flex; /* Add this to make child elements flex items */
+    position: relative;
+   
+}
+
+.Roi1, .Roi2 {
+    flex: 1;
+    
+}
+
+.Roi1{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+}
+
+.Roi2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row{
+    margin-left: 8vw;
+}
+
+.row {
+    width: 50%;
+    height: 95%;
+    display: flex;
+    border-top-left-radius: 20vw;
+    border-top-right-radius: 20vw;
+  
+    border-top: 1.2vw solid rgb(191, 155, 111);
+    border-left: 1.2vw solid rgb(191, 155, 111);
+    border-right:1.2vw solid rgb(191, 155, 111);
+
+}
+
+.row2{
+    width: 100%;
+    height: 30%;
+    display: flex;
+
+}
+
+
+.row3{
+    margin-right: 8vw;
+}
+
+.row3{
+    width: 50%;
+    height: 95%;
+    border-top-right-radius: 20vw;
+    border-top-left-radius: 20vw;
+    border-top: 1.2vw solid rgb(191, 155, 111);
+    border-left: 1.2vw solid rgb(191, 155, 111);
+    border-right:1.2vw solid rgb(191, 155, 111);
+}
+
+.Paty3{
+    width: 100%;
+    height: 3vw;
+    display: flex;
+}
+
+.pe, .pe2{
+    flex: 1;
+}
+
+.pe{
+
+    display: flex;
+
+}
+
+.pe2{
+    display: flex;
+}
+
+.foot{
+    width: 9.9%;
+    margin-left: 31.3%;
+    border-bottom: 1.2vw solid rgb(191, 155, 111);
+    border-left: 1.2vw solid rgb(191, 155, 111);
+    border-right: 1.2vw solid rgb(191, 155, 111);
+}
+
+.foot2{
+    width: 9.9%;
+    border-bottom: 1.2vw solid rgb(191, 155, 111);
+    border-left: 1.2vw solid rgb(191, 155, 111);
+    border-right: 1.2vw solid rgb(191, 155, 111);
+}
+
+.foot3{
+    width: 9.9%;
+    margin-left: 13.4%;
+    border-bottom: 1.2vw solid rgb(191, 155, 111);
+    border-left: 1.2vw solid rgb(191, 155, 111);
+    border-right: 1.2vw solid rgb(191, 155, 111);
+}
+
+.foot4{
+    width: 9.9%;
+    border-bottom: 1.2vw solid rgb(191, 155, 111);
+    border-left: 1.2vw solid rgb(191, 155, 111);
+    border-right: 1.2vw solid rgb(191, 155, 111);
+}
+
+
+.meio{
+    width: 24.9%;
+    border-top: 1.2vw solid rgb(191, 155, 111);
+}
+
+.meio2{
+    width: 24.9%;
+    border-top: 1.2vw solid rgb(191, 155, 111);
+}
+
+
+.Paty4{
+    width: 100%;
+    height: 6vw;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao{
+    width: 30%;
+    height:100%;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo{
+    width: 30%;
+    height: 80%;
+    background-color: yellow;
+}
